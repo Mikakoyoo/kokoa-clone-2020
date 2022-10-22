@@ -17,3 +17,7 @@ font-family: 'Open Sans', sans-serif;
 color:#2F363E;
 height: 1000vh;
 }
+
+.main-screen {
+    padding: 0px var(--horizontal-space);
+}
