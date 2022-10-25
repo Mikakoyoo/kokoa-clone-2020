@@ -26,3 +26,14 @@
     left: 70px;
     bottom: 22px;
 }
+
+.screen-header__icons-notification3{
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    display: flex;
+    position: absolute;
+    left: 120px;
+    bottom: 22px;
+}

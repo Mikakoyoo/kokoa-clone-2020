@@ -54,3 +54,23 @@
     margin-bottom: 10px;
     display: block;
 }
+
+.user-component__text{
+    position: relative;
+}
+.user-component__text span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: tomato;
+    border: 1px solid tomato;
+    margin-left: 5px;
+    padding: 3px;
+    font-size: 14px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    right: 0px;
+    bottom: -1.5px;
+}
