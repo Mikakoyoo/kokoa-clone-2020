@@ -5,7 +5,7 @@
 
 #in-chat-screen .alt-header,
 #in-chat-screen .status-bar {
-    top 0;
+    top: 0;
     position: fixed;
     width: 100%;
     box-sizing: border-box;
@@ -22,5 +22,16 @@
 }
 
 .main-in-chat{
-    margin-top: 150px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.in-chat__timestamp{
+    color: white;
+    background-color: #92A4B2;
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 14px;
 }
