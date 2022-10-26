@@ -12,10 +12,6 @@
     margin-bottom: 30px;
 }
 
-.icon-row__opacity{
-    opacity: 0;
-}
-
 .more-suggestions__icons{
     display: flex;
 }
