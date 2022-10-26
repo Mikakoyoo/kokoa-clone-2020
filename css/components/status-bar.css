@@ -1,6 +1,7 @@
 .status-bar {
-    /* position: fixed; status-bar가 screen-header와 겹쳐서 주석
-    니코쌤은 이 과제를 안했기 때문에 ㅋㅋㅋㅋ*/
+    position: fixed;
+    /* status-bar가 screen-header와 겹쳐서 주석
+    니코쌤은 이 과제를 안했기 때문에 ㅋㅋㅋㅋ */
     top: 0;
     box-sizing: border-box;
     width: 100%;
