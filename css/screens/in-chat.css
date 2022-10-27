@@ -22,14 +22,17 @@
 }
 
 @keyframes fadeIn{
-    from{
-        transform: translateY(30px);
-        opacity: 0;
+    0%{
+    opacity:0;
+    transform: none;
     }
-    to{
-        
-        transform: none;
-        opacity: 1;
+    1%{
+    opacity: 0;
+    transform: translateY(10px);
+    }
+    100%{
+    opacity:1;
+    transform: none;
     }
 }
 
@@ -187,3 +190,33 @@
 .reply:focus-within {
     transform: translateY(80px);
 }
+
+@keyframes Sildemessage{
+    from{
+    opacity: 0;
+    transform: translateX(-30px);
+    }
+    to{
+    opacity: 1;
+    transform: none;
+    }
+}
+
+.message-row{
+    animation: Sildemessage 1s ease-in-out;
+ }
+
+ @keyframes Sildemessageown{
+    from{
+    opacity: 0;
+    transform: translateX(30px);
+    }
+    to{
+    opacity: 1;
+    transform: none;
+    }
+}
+
+.message-row--own{
+    animation: Sildemessageown 1s ease-in-out;
+ }
